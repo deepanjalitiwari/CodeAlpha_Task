@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0d188cd2, #84acd9);
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  background-image: url(https://imgs.search.brave.com/CdGLTHRjGn18yx5peiG6MXmqobYDUE-UiYQaJcDgKr8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTIy/MjgyOTg1MC92ZWN0/b3IvbWFuLXdpdGgt/bWFya2VyLW1ha2lu/Zy1jaGVja2xpc3Qu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PXQzQ2lmZDFUSjVr/eWM2Mzh4ZTlzcDJp/ZFZaM0lmeTZrWWRK/UHpLYkJhWkU9);
+  object-fit: cover;
+  background-position: center;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.817);
+}
+
+.input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#newtask {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#Btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #d24339dc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#Btn:hover {
+  background-color: #27ae44;
+  transform: scale(1.2);
+}
+
+#taskl {
+  list-style: none;
+  padding: 0;
+}
+
+#taskl li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  position: relative;
+}
+
+#taskl li.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.remove-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 2px 6px;
+  cursor: pointer;
+}
